@@ -1,13 +1,34 @@
 import { StatusBar } from 'expo-status-bar';
-import React from 'react';
+import React, { useState } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
+import Map, { MarkerData } from './Map';
+import MapPanel from './MapPanel';
 
 export default function App() {
+  const [selectedMarker, setSelectedMarker] = useState(null as MarkerData);
+
+  function onMarkerPress(marker: MarkerData): void {
+    setSelectedMarker(marker);
+  }
+
+  function onMapPress(): void {
+    setSelectedMarker(null);
+  }
+
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <SafeAreaProvider>
+      <View style={styles.container}>
+        <StatusBar style="auto" />
+        <Map onMarkerPress={onMarkerPress} onMapPress={onMapPress} />
+        {selectedMarker !== null
+          ?
+            <MapPanel marker={selectedMarker} />
+          :
+            null
+        }
+      </View>
+    </SafeAreaProvider>
   );
 }
 

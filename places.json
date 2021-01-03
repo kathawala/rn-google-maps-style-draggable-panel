@@ -1,0 +1,138 @@
+[
+  {
+    "name": "Turban Outfitters",
+    "description": "Headgear for the fashion-forward man. Located at Springfield Squidport",
+    "info": "Clothing Store",
+    "address": "Unit #234, Springfield Squidport, opposite Barney's Bowlarama",
+    "imageURI": "./assets/turban_outfitters.png",
+    "products": [
+      {
+        "name": "Beard Oil",
+        "size": "Man-Sized",
+        "price": "$40"
+      },
+      {
+        "name": "Turban Polish",
+        "size": "Head-Sized",
+        "price": "$20"
+      },
+      {
+        "name": "Silk",
+        "size": "20x20",
+        "price": "$120"
+      },
+      {
+        "name": "Fragarance",
+        "size": "4oz",
+        "price": "$88"
+      }
+    ],
+    "rating": 5,
+    "review": "I don't even wear a turban... you people are always asking me stupid things like this!",
+    "reviewer": "Apu Nahasapeemapetilon",
+    "latitude": 37.807905,
+    "longitude": -122.416371
+  },
+  {
+    "name": "The Loin King",
+    "description": "Steaks so fresh you'll swear they were poached in front of you!",
+    "info": "Restaurant",
+    "address": "123 Fake St, Downtown Springfield",
+    "imageURI": "./assets/loin_king.jpg",
+    "products": [
+      {
+        "name": "Tiger T-Bone",
+        "size": "16oz",
+        "price": "$34"
+      },
+      {
+        "name": "Mufasa Fries",
+        "size": "feeds 2",
+        "price": "$10"
+      },
+      {
+        "name": "Zazu Wings",
+        "size": "6",
+        "price": "$8"
+      },
+      {
+        "name": "Rack of Wildebeast",
+        "size": "2lbs",
+        "price": "$50"
+      }
+    ],
+    "rating": 4,
+    "review": "Endangered animal steaks? BORING!",
+    "reviewer": "Homer Simpson",
+    "latitude": 37.797575,
+    "longitude": -122.433184
+  },
+  {
+    "name": "Bloodbath & Beyond Gun Shop",
+    "description": "Peruse our wide variety of guns and gun accessories. State-enforced mandatory five-day waiting period on all purchases",
+    "info": "Gun Store & Range",
+    "address": "Somewhere in the Rat's Nest Neighborhood",
+    "imageURI": "./assets/bb_gun_shop.png",
+    "products": [
+      {
+        "name": "Silencers",
+        "size": "Gun-Sized",
+        "price": "$80"
+      },
+      {
+        "name": "Loudeners",
+        "size": "Fun-Sized",
+        "price": "$120"
+      },
+      {
+        "name": "Bandoliers",
+        "size": "Man-Sized",
+        "price": "$20"
+      },
+      {
+        "name": "Sympathy Cards",
+        "size": "8x12",
+        "price": "$2"
+      }
+    ],
+    "rating": 2,
+    "review": "Great place to get... stuff for things... like... crimes...",
+    "reviewer": "Snake",
+    "latitude": 37.761285,
+    "longitude": -122.398458
+  },
+  {
+    "name": "Saks Fifth Grade",
+    "description": "Clothes for the girl who has everything but self-esteem. Sizes range from 0 down",
+    "info": "Clothing Store",
+    "address": "22 Maple Lane, Springfield Heights, Springfield",
+    "imageURI": "./assets/saks.png",
+    "products": [
+      {
+        "name": "Belt",
+        "size": "4in",
+        "price": "$60"
+      },
+      {
+        "name": "Dress",
+        "size": "0",
+        "price": "$120"
+      },
+      {
+        "name": "Jumpsuit",
+        "size": "-1",
+        "price": "$100"
+      },
+      {
+        "name": "Pants",
+        "size": "0.1",
+        "price": "$70"
+      }
+    ],
+    "rating": 2,
+    "review": "If you don't shop here, what are you, like, lame?",
+    "reviewer": "Malibu Stacy",
+    "latitude": 37.783122,
+    "longitude": -122.450039
+  }
+]
