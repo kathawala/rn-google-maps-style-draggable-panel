@@ -1,5 +1,5 @@
 # rn-google-maps-style-draggable-panel
-Simple example project showing how to implement a sliding-up panel with scrollable content inside. Blogpost about this code available at https://www.farhansayshi.com
+Simple example project showing how to implement a sliding-up panel with scrollable content inside. Blogpost about this code along with screenshots and a demo video is available at https://www.farhansayshi.com/post/sliding-up-panel-in-react-native/
 
 This example shows one screen with a map, markers for various locations, and a sliding-up panel with scrollable content inside.
 
